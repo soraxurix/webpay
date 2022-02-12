@@ -9,6 +9,6 @@ $bag = CertificationBagFactory::integrationWebpayNormal();
 
 $plus = TransbankServiceFactory::normal($bag);  
 // phpinfo();
-
+echo "Pagando...";
 
 ?>
