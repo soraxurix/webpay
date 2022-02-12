@@ -7,8 +7,8 @@ include "vendor/autoload.php";
 
 $bag = CertificationBagFactory::integrationWebpayNormal();
 
-// $plus = TransbankServiceFactory::normal($bag);  
-phpinfo();
+$plus = TransbankServiceFactory::normal($bag);  
+// phpinfo();
 
 
 ?>
